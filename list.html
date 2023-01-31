@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/list.js"></script>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/list.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <nav class="header_wrap">
+            <div class="header">
+                <div class="right_part">
+                    <div class="login">
+                        <a href=""><img src="./img/list/user.png"></a>
+                    </div>
+                    <div class="cart">
+                        <a href=""><img src="./img/list/list_cart.png"></a>
+                    </div>
+                    <div class="search">
+                        <a href=""><img src="./img/list/list_search.png"></a>
+                    </div>
+                    <div class="list_header_ham">
+                        <a href="javascript:void(0)"><img src="./img/list/list_ham.png"></a>
+                    </div>
+                </div>
+                <div class="left_part">
+                    <div class="list_logo">
+                        <a href="./main.html">
+                            <img src="./img/main/main_logo.png" class="web_logo">
+                            <img src="./img/list/m_logo.png" class="m_logo">
+                        </a>
+                    </div>
+                    <div class="list_menu">
+                        <ul>
+                            <li><a href="./list.html">SHOP</a></li>
+                            <li><a href="./list.html">ABOUT</a></li>
+                            <li><a href="./list.html">STORY</a></li>
+                            <li><a href="./list.html">EVENT</a></li>
+                            <li><a href="./list.html">BOARD</a></li>
+                            <li><a href="./list.html">STOCKLIST</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------사이드메뉴------------->
+        <div class="side_background"></div>
+        <div class="side_menu">
+            <div class="side_inner">
+                <div class="side_inner_top">
+                    <div class="side_basket">
+                        <a href="">
+                            <img src="./img/main/side_basket.png">
+                        </a>
+                    </div>
+                    <div class="side_close">
+                        <a href="javascript:void(0)">
+                            <img src="./img/main/side_close.png">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="side_middle1">
+                    <ul>
+                        <li><a href="">LOGIN</a></li>
+                        <li><a href="">JOIN US</a></li>
+                        <li><a href="">CART</a></li>
+                        <li><a href="">MYPAGE</a></li>
+                    </ul>
+                </div>
+                <span class="side_line"></span>
+                <div class="side_middle2">
+                    <ul>
+                        <li><a href="./list.html">NOTICE</a></li>
+                        <li><a href="./list.html" class="side_shop">SHOP</a>
+                            <div class="shop_inner">
+                                <ul class="shop_ul">
+                                    <li><a href="">23 봄 제품 보기</a></li>
+                                    <li><a href="">베스트셀러</a></li>
+                                    <li><a href="">패브릭 라인</a></li>
+                                    <li><a href="">가죽 라인</a></li>
+                                    <li><a href="">스몰굿즈</a></li>
+                                    <li><a href="">재입고예정 상품</a></li>
+                                    <li><a href="">선물 패키지</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./list.html">ABOUT</a></li>
+                        <li><a href="./list.html" class="side_story">STORY</a>
+                            <div class="story_inner">
+                                <ul class="story_ul">
+                                    <li><a href="">COLLECTION</a></li>
+                                    <li><a href="">FILM</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./list.html">EVENT</a></li>
+                        <li><a href="./list.html" class="side_board">BOARD</a>
+                            <div class="board_inner">
+                                <ul class="board_ul">
+                                    <li><a href="">NOTICE</a></li>
+                                    <li><a href="">Q & A</a></li>
+                                    <li><a href="">REVIEW</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./list.html">STOCKLIST</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+
+        <!-----------------contents-------------------->
+        <div class="index_name">SHOP</div>
+        <div class="contents_wrap">
+            <div class="product_index">
+                <div class="index_cate">
+                    <ul>
+                        <li><a href="">23 봄 제품 보기</a></li>
+                        <li><a href="">베스트셀러</a></li>
+                        <li><a href="">패브릭 라인</a></li>
+                        <li><a href="">가죽 라인</a></li>
+                        <li><a href="">스몰굿즈</a></li>
+                        <li><a href="">재입고예정 상품</a></li>
+                        <li><a href="">선물 패키지</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bestseller">
+                <div class="bestseller_title">OUR BEST ITEM</div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img1.jpg">
+                                <div class="best_name">칼린 소프트M</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img2.jpg">
+                                <div class="best_name">칼린 소프트L</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img3.jpg">
+                                <div class="best_name">칼린 포잉 silver</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img4.jpg">
+                                <div class="best_name">칼린 코지</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img5.jpg">
+                                <div class="best_name">칼린 소프트 벨벳</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img6.jpg">
+                                <div class="best_name">칼린 매디슨 미니</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img7.jpg">
+                                <div class="best_name">칼린 미닛</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./product.html">
+                                <img src="./img/list/list_img8.jpg">
+                                <div class="best_name">칼린 소프트 파우치</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="product_list">
+                <ul class="product_list_container">
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img1.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 소프트M</a></li>
+                                    <li class="pro_price">80,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img2.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 소프트L</a></li>
+                                    <li class="pro_price">90,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img3.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 포잉 silver</a></li>
+                                    <li class="pro_price">90,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img4.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 코지</a></li>
+                                    <li class="pro_price">90,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img5.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 소프트 벨벳</a></li>
+                                    <li class="pro_price">100,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img6.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="">칼린 매디슨 미니</a></li>
+                                    <li class="pro_price">180,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img7.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 미닛</a></li>
+                                    <li class="pro_price">180,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img8.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 소프트 파우치</a></li>
+                                    <li class="pro_price">25,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img9.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 로지</a></li>
+                                    <li class="pro_price">150,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img10.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 토푸</a></li>
+                                    <li class="pro_price">180,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img11.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 허그</a></li>
+                                    <li class="pro_price">180,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="product_list_li">
+                        <dl>
+                            <dt>
+                                <a href="./product.html"><img src="./img/list/list_img12.jpg"></a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li class="pro_name"><a href="./product.html">칼린 젤리 미니</a></li>
+                                    <li class="pro_price">150,000</li>
+                                    <li class="pro_coupon">
+                                        <span>쿠폰</span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer_inner">
+                <ul>
+                    <li><a href="">COMPANY</a></li>
+                    <li><a href="">STORE</a></li>
+                    <li><a href="">AGREEMENT</a></li>
+                    <li><a href="">PRIVACY POLICY</a></li>
+                    <li><a href="">HELP</a></li>
+                    <li><a href="">NEWSLETTER</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 10,
+            slidesPerGroup: 4,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>

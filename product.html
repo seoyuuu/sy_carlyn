@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/list.js"></script>
+    <script src="./js/option.js"></script>
+    <script src="./js/product.js"></script>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/product.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <a href="#" class="to_top"><img src="./img/product/top_btn.png"></a>
+        <nav class="header_wrap">
+            <div class="header">
+                <div class="right_part">
+                    <div class="login">
+                        <a href=""><img src="./img/list/user.png"></a>
+                    </div>
+                    <div class="cart">
+                        <a href=""><img src="./img/list/list_cart.png"></a>
+                    </div>
+                    <div class="search">
+                        <a href=""><img src="./img/list/list_search.png"></a>
+                    </div>
+                    <div class="list_header_ham">
+                        <a href="javascript:void(0)"><img src="./img/list/list_ham.png"></a>
+                    </div>
+                </div>
+                <div class="left_part">
+                    <div class="list_logo">
+                        <a href="./main.html">
+                            <img src="./img/main/main_logo.png" class="web_logo">
+                            <img src="./img/list/m_logo.png" class="m_logo">
+                        </a>
+                    </div>
+                    <div class="list_menu">
+                        <ul>
+                            <li><a href="./list.html">SHOP</a></li>
+                            <li><a href="./list.html">ABOUT</a></li>
+                            <li><a href="./list.html">STORY</a></li>
+                            <li><a href="./list.html">EVENT</a></li>
+                            <li><a href="./list.html">BOARD</a></li>
+                            <li><a href="./list.html">STOCKLIST</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------사이드메뉴------------->
+        <div class="side_background"></div>
+        <div class="side_menu">
+            <div class="side_inner">
+                <div class="side_inner_top">
+                    <div class="side_basket">
+                        <a href="">
+                            <img src="./img/main/side_basket.png">
+                        </a>
+                    </div>
+                    <div class="side_close">
+                        <a href="javascript:void(0)">
+                            <img src="./img/main/side_close.png">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="side_middle1">
+                    <ul>
+                        <li><a href="">LOGIN</a></li>
+                        <li><a href="">JOIN US</a></li>
+                        <li><a href="">CART</a></li>
+                        <li><a href="">MYPAGE</a></li>
+                    </ul>
+                </div>
+                <span class="side_line"></span>
+                <div class="side_middle2">
+                    <ul>
+                        <li><a href="./list.html">NOTICE</a></li>
+                        <li><a href="./list.html" class="side_shop">SHOP</a>
+                            <div class="shop_inner">
+                                <ul class="shop_ul">
+                                    <li><a href="">23 봄 제품 보기</a></li>
+                                    <li><a href="">베스트셀러</a></li>
+                                    <li><a href="">패브릭 라인</a></li>
+                                    <li><a href="">가죽 라인</a></li>
+                                    <li><a href="">스몰굿즈</a></li>
+                                    <li><a href="">재입고예정 상품</a></li>
+                                    <li><a href="">선물 패키지</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./list.html">ABOUT</a></li>
+                        <li><a href="./list.html" class="side_story">STORY</a>
+                            <div class="story_inner">
+                                <ul class="story_ul">
+                                    <li><a href="">COLLECTION</a></li>
+                                    <li><a href="">FILM</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./list.html">EVENT</a></li>
+                        <li><a href="./list.html" class="side_board">BOARD</a>
+                            <div class="board_inner">
+                                <ul class="board_ul">
+                                    <li><a href="">NOTICE</a></li>
+                                    <li><a href="">Q & A</a></li>
+                                    <li><a href="">REVIEW</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./list.html">STOCKLIST</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!---------------상품메인-------------------->
+        <div class="product_main">
+            <div class="product_top">
+                <div class="product_img">
+                    <img src="./img/list/list_img1.jpg" class="product_img_big">
+                    <div class="product_img_bot">
+                        <ul>
+                            <li class="img_bot_main"><img src="./img/list/list_img1.jpg"></li>
+                            <li class="img_bot_black"><img src="./img/product/img_black.jpg"></li>
+                            <li class="img_bot_pink"><img src="./img/product/img_pink.jpg"></li>
+                            <li class="img_bot_blue"><img src="./img/product/img_blue.jpg"></li>
+                            <li class="img_bot_violet"><img src="./img/product/img_violet.jpg"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_buy">
+                    <div class="product_name">칼린 소프트M</div>
+                    <table class="product_table">
+                        <tbody>
+                            <tr>
+                                <td class="sort">
+                                    <div class="td_left">정가</div>
+                                </td>
+                                <td class="price">
+                                    <div class="td_left">
+                                        <strike>80,000원</strike>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="sort">
+                                    <div class="td_left">판매가</div>
+                                </td>
+                                <td class="price">
+                                    <div class="td_left">
+                                        <strong class="td_strong">80,000원</strong>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="sort_option">
+                                <td class="sort">
+                                    <div class="sort_left">색상</div>
+                                </td>
+                                <td class="option">
+                                    <div class="option_wrap">
+                                        <div class="opt">
+                                            <button type="button" value="black" id="black" class="opt_btn">
+                                                <img src="./img/product/opt_black.jpg">
+                                            </button>
+                                        </div>
+                                        <div class="opt">
+                                            <button type="button" value="pink" id="pink" class="opt_btn">
+                                                <img src="./img/product/opt_pink.jpg">
+                                            </button>
+                                        </div>
+                                        <div class="opt">
+                                            <button type="button" value="blue" id="blue" class="opt_btn">
+                                                <img src="./img/product/opt_blue.jpg">
+                                            </button>
+                                        </div>
+                                        <div class="opt">
+                                            <button type="button" value="violet" id="violet" class="opt_btn">
+                                                <img src="./img/product/opt_violet.jpg">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="opt_selected"></div>
+                    <div class="total">
+                        <div>
+                            <h4>총 상품 금액</h4>
+                            <span class="p_total">원</span>
+                        </div>
+                    </div>
+                    <div class="buy_btn">
+                        <a href="" class="btn_buynow">BUY IT NOW</a>
+                        <a href="" class="btn_cart">ADD TO CART</a>
+                        <a href="" class="btn_wish">WISH LIST</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------메뉴이동 네비바------------------>
+            <div class="product_nav">
+                <ul>
+                    <a href="#sec_1"><li>DETAIL PRODUCT</li></a>
+                    <a href="#sec_2"><li>REVIEW BOARD</li></a>
+                    <a href="#sec_3"><li>Q&A BOARD</li></a>
+                </ul>
+            </div>
+            <!------------상품 상세페이지------------->
+            <div class="product_info">
+                <div id="sec_1">DETAIL PRODUCT</div>
+                <img src="./img/product/23ss_img.jpg">
+                <img src="./img/product/detail.jpg">
+                <img src="./img/product/caution2.jpg">
+                <img src="./img/product/bag_info.jpg">
+                <img src="./img/product/caution1.jpg">
+                <img src="./img/product/chart.jpg">
+            </div>
+            <!------------리뷰섹션------------->
+            <div class="review_sec">
+                <div id="sec_2">REVIEW BOARD</div>
+                <textarea class="review_write" placeholder="로그인 후 리뷰를 작성해 주세요."></textarea>
+                <div class="review_bot">
+                    <div class="review_photo">
+                        <img src="./img/product/review_cam.png">
+                    </div>
+                    <div class="review_submit">리뷰등록</div>
+                </div>
+                <div class="review_main">
+                    <span class="review_star">★★★★★</span>
+                    <span class="review_good">매우만족</span>
+                    <br>
+                    <span class="review_name">이**</span>
+                    <span class="review_date">2023.01.01</span>
+                    <br>
+                    <span class="review_txt">수납력도 좋고 예뻐서 어느 옷에나 잘 어울려요!</span>
+                </div>
+            </div>
+            <!------------q&a섹션------------->
+            <div id="sec_3" class="product_ask">
+                <div class="ask_p">상품문의</div>
+                <table class="product_qna">
+                    <thead class="qna_top">
+                        <tr>
+                            <th col width="80">
+                                <div>NO</div>
+                            </th>
+                            <th>
+                                <div>SUBJECT</div>
+                            </th>
+                            <th col width="110">
+                                <div>NAME</div>
+                            </th>
+                            <th col width="110">
+                                <div>DATE</div>
+                            </th>
+                            <th col width="110">
+                                <div>HIT</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="qna_mid">
+                        <tr>
+                            <td col width="80">
+                                <div class="qna_num">1</div>
+                            </td>
+                            <td>
+                                <a class="qna_topic">
+                                    <img src="./img/product/qna_lock.gif">상품관련 문의 드립니다<span>[답변완료]</span>
+                                </a>
+                            </td>
+                            <td col width="110">
+                                <div class="qna_name">이**</div>
+                            </td>
+                            <td col width="110">
+                                <div class="qna_date">2022/12/05</div>
+                            </td>
+                            <td col width="110">
+                                <div class="qna_view">1</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td col width="80">
+                                <div class="qna_num">2</div>
+                            </td>
+                            <td>
+                                <a class="qna_topic">
+                                    <img src="./img/product/qna_reply.gif"><img src="./img/product/qna_lock.gif">상품관련 문의 드립니다<span>[답변완료]</span>
+                                </a>
+                            </td>
+                            <td col width="110">
+                                <div class="qna_name">관리자</div>
+                            </td>
+                            <td col width="110">
+                                <div class="qna_date">2022/12/05</div>
+                            </td>
+                            <td col width="110">
+                                <div class="qna_view">1</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="qna_m">
+                    <div class="qna_m_top">
+                        <a class="qna_m_topic" href="#">
+                            <img src="./img/product/qna_lock.gif">상품관련 문의 드립니다<span>[답변완료]</span>
+                        </a>
+                    </div>
+                    <div class="qna_m_bot">
+                        <div>
+                            이** | 2023-01-01
+                        </div>
+                    </div>
+                </div>
+                <div class="qna_m">
+                    <div class="qna_m_top">
+                        <a class="qna_m_topic" href="#">
+                            <img src="./img/product/qna_reply.gif">
+                            <img src="./img/product/qna_lock.gif">상품관련 문의 드립니다<span>[답변완료]</span>
+                        </a>
+                    </div>
+                    <div class="qna_m_bot">
+                        <div>
+                            관리자 | 2023-01-01
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_inner">
+                <ul>
+                    <li><a href="">COMPANY</a></li>
+                    <li><a href="">STORE</a></li>
+                    <li><a href="">AGREEMENT</a></li>
+                    <li><a href="">PRIVACY POLICY</a></li>
+                    <li><a href="">HELP</a></li>
+                    <li><a href="">NEWSLETTER</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
